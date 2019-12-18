@@ -9,7 +9,7 @@
  
  
     <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
-   <dubbo:application name="system_app_service_consumer"  />
+   <dubbo:application name="system_app_service_consumer" />
  
  	<!-- 使用zookeeper注册中心暴露服务地址 -->
    <dubbo:registry address="zookeeper://127.0.0.1:2181" />
