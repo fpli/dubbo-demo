@@ -1,12 +1,14 @@
 package com.ln.demo.api.system.dto;
 
+import java.io.Serializable;
+
 /**
  * 可用资源dto类（Shiro动态FilterChainDefinitions dto类）
  * 
  * @author Lining
  * @date 2018/2/11
  */
-public final class AvailableResourceDTO implements java.io.Serializable {
+public final class AvailableResourceDTO implements Serializable {
 
 	private static final long serialVersionUID = -5316506151248386322L;
 
